@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li href="#contact">contact</li>
+        </ul>
+    </nav>
+    <section id="contact">
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="user-email">Email</label>
+                <input type="email" id="user-email" name="user-email">
+                <br>
+                <br>
+                <label for="found">How did you find us?</label>
+                <br>
+                <label for="found">Internet Search</label>
+                <input type="radio" id="Google" name="found">
+                <label for="found">Social Media</label>
+                <input type="radio" id="social" name="found">
+                <label for="found">Friends</label>
+                <input type="radio" id="friend" name="found">
+                <br>
+                <br>
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="50" rows="15"></textarea>
+            </fieldset>
+        </form>
+    </section>
+    <section id="products">
+        <Table>
+            <tr>
+                <th colspan="3" style="background-color: green">Products</th>
+            </tr>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>T-Shirt</td>
+                <td>$1000</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Jeans</td>
+                <td>$2000</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Socks</td>
+                <td>5000</td>
+                <td>2</td>
+            </tr>
+        </Table>
+    </section>
+    <section>
+        <p>Here is a profound photo that always makes me ponder the meaning of life.</p>
+        <img src="https://placehold.co/300x200" alt="universal photo" height="300" width="300" style="padding: 10px; margin: 0px">
+        <br>
+        <p>Here is my beloved baby kingsnake Audie helping me learn to code</p>
+        <img src="/images/Audie.jpeg" alt="photo of Audie" height="300" width="300" style="border-radius: 30px">
+    </section>
+
+</body>
+</html>
